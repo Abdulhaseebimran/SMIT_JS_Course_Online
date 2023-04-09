@@ -34,7 +34,7 @@ let userFavNum = prompt("What is your favourite number?");
 console.log("Your favourite number is " + userFavNum);
 
 let userName = prompt("What is your Name? ");
-document.write("Your Name is " + userFavNum);
+document.write("Your Name is " + userName);
 
 let randomNumber = Math.random();
 randomNumber = randomNumber * 10;
