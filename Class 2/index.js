@@ -33,8 +33,17 @@ console.log(num4 % num5);
 let userFavNum = prompt("What is your favourite number?");
 console.log("Your favourite number is " + userFavNum);
 
+let userName = prompt("What is your Name? ");
+document.write("Your Name is " + userFavNum);
+
 let randomNumber = Math.random();
-randomNumber = randomNumber * 10; 
+randomNumber = randomNumber * 10;
 // randomNumber *= 10; // Short Hand
 let roundedNumber = Math.round(randomNumber);
 console.log(roundedNumber);
+
+
+// BODMAS = Brackets Of, Divide, Multiply, Add, Subtract
+let num6 = 5 ** 3;
+
+console.log(num);
