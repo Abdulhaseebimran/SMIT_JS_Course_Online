@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Recommendation App</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <h1><b>Movie Recommendation App</b></h1>
+    <div class="search-form-container">
+      <input
+        id="searchInput"
+        type="text"
+        placeholder="         Search Movies......."
+      />
+      <button id="searchBtn">Search</button>
+    </div>
+  </header>
+  <nav class="navbar">
+  <div class="tabs">
+    
+      <button type="submit"class="most_watched" >Best Rated</button>
+    
+      <button type="submit"class="most_recent">Most Recent</button>
+      <button type="submit"class="most_popular">Most Popular</button>
+  </div>
+</nav>
+  <main>
+    <div class="dropDownContainers">
+    </div>
+    <section id="recipeResults">
+      <h2 class="search-results-heading">Search Results</h2>
+      <div class="list-container">
+        <ul id="recipe-list"></ul>
+      </div>
+    </section>
+    <section id="recipeDetails">
+      <h2>Movie Details</h2>
+      <div id="recipeDetailsContainer"></div>
+    </section>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
