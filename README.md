@@ -1,2 +1,2 @@
 # SMIT_JS_Course_Online
-SMIT Javascript online course
+SMIT Javascript online course .
